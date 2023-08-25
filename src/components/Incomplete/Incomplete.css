@@ -1,0 +1,64 @@
+.incomplete{
+    background-color: #f0f0f0;
+    width: 18rem;
+    border: 1px solid #ccc;
+    margin: 5px;
+    /* overflow: hidden; */
+}
+.incomplete__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine;  */
+    margin-top: 7px;
+    margin-bottom: 2px;
+    height: 35px;
+}
+.half__circle{
+    background-color: rgb(189, 13, 13);
+    width: 18px;
+    height: 14px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    border-left: 50%;
+    display: inline-block;
+    transform: rotate(-90deg);
+    margin: 5px 0px;
+    margin-left: 10px;
+}
+.number{
+    background-color: #DCDCDC;
+    width: 21px;
+    height: 25px;
+    border-radius: 6px;
+    padding: 0px 6px;
+    margin-right: 15px;
+}
+.title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 135px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* styles.css */
+
+.scrollable-card {
+  max-height: 580px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.scrollable-card::-webkit-scrollbar {
+  width: 7px; /* Adjust the width of the scrollbar */
+}
+
+.scrollable-card::-webkit-scrollbar-thumb {
+  background-color: rgba(10, 62, 110, 0.815); /* Change the color of the thumb */
+  border-radius: 10px;
+}
+
+.scrollable-card::-webkit-scrollbar-track {
+  background: #999999;; /* Make the track transparent */
+}
+

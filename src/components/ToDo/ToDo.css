@@ -1,0 +1,20 @@
+.half__circle-sky{
+    background-color: rgb(59, 110, 206);
+    width: 18px;
+    height: 14px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    border-left: 50%;
+    display: inline-block;
+    transform: rotate(-90deg);
+    margin: 5px 0px;
+    margin-left: 10px;
+}
+.title__todo{
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 172px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

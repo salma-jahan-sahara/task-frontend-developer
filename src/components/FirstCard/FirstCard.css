@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+.client img{
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 50%;
+}
+.first__row {
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+

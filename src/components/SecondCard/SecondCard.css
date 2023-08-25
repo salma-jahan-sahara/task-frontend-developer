@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.second__row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: blue; */
+    gap: 5px;
+    margin: 5px 5px;
+    padding: 0px 8px;
+}
+.clipboard{
+    background-color: #f0f0f0;
+    height: 17px;
+    width: 2rem;
+    padding: 0px 1px;
+    border-radius: 3px;
+    margin-left: 39px;
+}
+.space{
+    padding: 0 2px;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.parent-card {
+  width: 100vw;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.parent-card::-webkit-scrollbar {
+  height: 9px; /* Adjust the width of the scrollbar */
+}
+
+.parent-card::-webkit-scrollbar-thumb {
+  background-color: rgba(10, 62, 110, 0.815); /* Change the color of the thumb */
+  border-radius: 10px;
+}
+
+.parent-card::-webkit-scrollbar-track {
+  background: #777777; /* Make the track transparent */
+}

@@ -1,0 +1,17 @@
+.third__row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+}
+.light__bg{
+    height: 21px;
+    width: 22px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    padding: 1px 1px;
+}
+.space{
+    padding: 0 2px;
+}
