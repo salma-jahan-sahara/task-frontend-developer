@@ -15,3 +15,12 @@
 .space{
     padding: 0 2px;
 }
+.btn__attach{
+    outline: none;
+    border: none;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

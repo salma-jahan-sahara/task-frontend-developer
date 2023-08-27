@@ -1,5 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import {FaPaperclip } from "react-icons/fa6";
 import Incomplete from "./components/Incomplete/Incomplete.jsx";
 import ToDo from "./components/ToDo/ToDo.jsx";
 import Doing from "./components/Doing/Doing.jsx"
