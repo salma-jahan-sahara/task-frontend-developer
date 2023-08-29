@@ -74,7 +74,7 @@ const ModalAttach = () => {
               </div>
               <div className="modal-body">
                 <form
-                  action="http://127.0.0.1:8000/api/upload-files"
+                  action="salmajahansahara.atwebpages.com/seopage-api/upload-files"
                   method="post"
                   encType="multipart/form-data"
                 >
